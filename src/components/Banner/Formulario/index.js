@@ -7,11 +7,7 @@ import App from '../../../App';
 
 
 function Formulario(props) {
-    const times = [
-        "Back-end",
-        "Front-end",
-        "Mobile"
-    ];
+    
 
    
     const [nome,setNome] = useState();
@@ -28,6 +24,13 @@ function Formulario(props) {
             dropDown
         })
     };
+
+    const times = [
+        "Back-end",
+        "Front-end",
+        "Mobile",
+        "Gestão e Inovação"
+    ];
 
 
     return (
