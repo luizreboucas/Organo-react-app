@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Organo-react-app/static/css/main.c3eb53ea.css",
+    "main.js": "/Organo-react-app/static/js/main.e9de34c7.js",
+    "static/js/787.1fb6dee0.chunk.js": "/Organo-react-app/static/js/787.1fb6dee0.chunk.js",
+    "index.html": "/Organo-react-app/index.html",
+    "main.c3eb53ea.css.map": "/Organo-react-app/static/css/main.c3eb53ea.css.map",
+    "main.e9de34c7.js.map": "/Organo-react-app/static/js/main.e9de34c7.js.map",
+    "787.1fb6dee0.chunk.js.map": "/Organo-react-app/static/js/787.1fb6dee0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3eb53ea.css",
+    "static/js/main.e9de34c7.js"
+  ]
+}
