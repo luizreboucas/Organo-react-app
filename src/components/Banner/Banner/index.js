@@ -1,9 +1,10 @@
+import imagemBanner from '../images/Header2x.png'
 import './Banner.css'
 
 function Banner(){
     return (
         <header className="banner">
-            <img  src="/imagens/Header@2x.png" alt="Banner Principal Da Página do Organo"/>
+            <img  src={imagemBanner} alt="Banner Principal Da Página do Organo"/>
         </header>
     )
 }
