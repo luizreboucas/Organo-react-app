@@ -1,0 +1,20 @@
+.footer{
+    background-color: #6278F7;
+    height: 213px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .logos{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.footer .organo{
+
+}
+
+.footer h3{
+    color: #FFFFFF;
+}

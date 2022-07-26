@@ -23,14 +23,14 @@ function Formulario(props) {
             imagem,
             dropDown
         })
+
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setDropDown('')
     };
 
-    const times = [
-        "Back-end",
-        "Front-end",
-        "Mobile",
-        "Gestão e Inovação"
-    ];
+   
 
 
     return (
@@ -60,7 +60,7 @@ function Formulario(props) {
                 <DropDown
                     obrigatorio={true} 
                     label="Times" 
-                    itens={times}
+                    itens={props.times}
                     valor={dropDown}
                     aoAlterado={valor=>setDropDown(valor)} />
                 <Botao>Criar Botão</Botao>
